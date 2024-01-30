@@ -10,4 +10,5 @@ def yolo_message():
     task_message = print_message()
     print(task_message)
 
-yolo_message()
+if __name__ == "__main__":
+    yolo_message()
